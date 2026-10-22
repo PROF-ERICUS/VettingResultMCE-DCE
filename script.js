@@ -122,4 +122,34 @@ function renderResults() {
   });
 }
 
+
+const resultsSearch = document.getElementById("resultsSearch");
+const resultsBody = document.getElementById("resultsBody");
+const searchInfo = document.getElementById("searchInfo");
+
+resultsSearch.addEventListener("input", function () {
+  const query = this.value.trim().toLowerCase();
+  const rows = Array.from(resultsBody.querySelectorAll("tr"));
+
+  let visibleCount = 0;
+
+  rows.forEach((row) => {
+    const matches = row.textContent.toLowerCase().includes(query);
+
+    row.hidden = !matches;
+
+    if (matches) {
+      visibleCount++;
+    }
+  });
+
+  if (query === "") {
+    searchInfo.textContent =
+      `Showing all ${rows.length} vetting results`;
+  } else {
+    searchInfo.textContent =
+      `${visibleCount} result${visibleCount === 1 ? "" : "s"} found`;
+  }
+});
+
 renderResults();
