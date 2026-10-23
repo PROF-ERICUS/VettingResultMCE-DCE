@@ -75,12 +75,12 @@ const nominees = [
     { name: "", position: "DCE", district: "Atwima Mponua", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Atwima-Nwabiagya South", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Atwima-Nwabiagya North", score: null, remarks: "Vetting result pending", selected: null },
-    { name: "", position: "MCE", district: "Bekwai", score: null, remarks: "Vetting result pending", selected: null },
+    { name: "Christian Anokye", position: "MCE", district: "Bekwai", score: 89, remarks: "Met all requirements and performed satisfactorily.", selected: true },
     { name: "", position: "DCE", district: "Bosome-Freho", score: null, remarks: "Vetting result pending", selected: null },
     { name: "Agyemang Badu Bright", position: "DCE", district: "Bosomtwe", score: null, remarks: "Vetting result pending", selected: null },
 
     { name: "Ebenezer Kumi Adu-Gyamfi", position: "MCE", district: "Ejisu", score: 95, remarks: "Met all requirements and performed satisfactorily", selected: true },
-    { name: "Nsiah Samuel Aboagye", position: "MCE", district: "Ejisu", score: null, remarks: "Vetting result pending", selected: null },
+    { name: "Nsiah Samuel Aboagye", position: "MCE", district: "Ejisu", score: 90, remarks: "Approved by the Vetting Committee but not selected for appointment.", selected: false },
     { name: "Donkor Kwaku Sarpong Wilberforce", position: "MCE", district: "Ejisu", score: 49, remarks: "Did not meet the required threshold.", selected: false },
 
     { name: "", position: "MCE", district: "Ejura-Sekyedumase", score: null, remarks: "Vetting result pending", selected: null },
@@ -165,9 +165,9 @@ const nominees = [
         name: "Stephen Kwame Adjei",
         position: "DCE",
         district: "Jaman North",
-        score: null,
-        remarks: "Vetting result pending",
-        selected: null
+        score: 80,
+        remarks: "Met all requirements and performed satisfactorily",
+        selected: true
     },
     {
         name: "",
@@ -428,7 +428,7 @@ const nominees = [
     { name: "", position: "MCE", district: "Anyaa-Sowutuom", score: null, selected: null, remarks: "Vetting result pending" },
 
     { name: "Addison Kwasi Panyin", position: "MCE", district: "Dome-Kwabenya", score: 98, selected: true, remarks: "Met all requirements and performed satisfactorily." },
-    { name: "Isaac Gedia Kwabena", position: "MCE", district: "Dome-Kwabenya", score: null, selected: null, remarks: "Vetting result pending" },
+    { name: "Isaac Gedia Kwabena", position: "MCE", district: "Dome-Kwabenya", score: 80, selected: false, remarks: "Approved by the Vetting Committee but not selected for appointment." },
     { name: "Oheneba-Prempeh Paul Atta", position: "MCE", district: "Dome-Kwabenya", score: null, selected: null, remarks: "Vetting result pending" },
 
     { name: "Nketiah B. K Ebenezer", position: "MCE", district: "Trobu", score: 78, selected: false, remarks: "Approved by the Vetting Committee but not selected for appointment." },
@@ -757,9 +757,9 @@ const nominees = [
     name: "Prince Okumah",
     position: "MCE",
     district: "Salaga South",
-    score: null,
-    selected: null,
-    remarks: "Vetting result pending"
+    score: 60,
+    selected: true,
+    remarks: "Met most requirements but needs improvement in specific areas."
   },
   {
     name: "Draman Sachibu",
@@ -1175,9 +1175,9 @@ const nominees = [
         name: "Emmanuel Adusei",
         position: "DCE",
         district: "Wassa East",
-        score: null,
-        selected: null,
-        remarks: "Vetting result pending"
+        score: 89,
+        selected: true,
+        remarks: "Met all requirements and performed satisfactorily"
     },
 
 
@@ -1210,17 +1210,17 @@ const nominees = [
         name: "Ebenezer Abban",
         position: "MCE",
         district: "Bibiani-Anhwiaso-Bekwai",
-        score: null,
-        selected: null,
-        remarks: "Vetting result pending"
+        score: 50,
+        selected: true,
+        remarks: "Met most requirements but needs improvement in specific areas."
     },
     {
         name: "Emmanuel Nyamekye",
         position: "DCE",
         district: "Bodi",
-        score: null,
-        selected: null,
-        remarks: "Vetting result pending"
+        score: 75,
+        selected: true,
+        remarks: "Met all requirements and performed satisfactorily. "
     },
     {
         name: "",
