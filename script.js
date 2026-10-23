@@ -71,7 +71,7 @@ const nominees = [
     { name: "Oduro Francis", position: "MCE", district: "Asante Akim South", score: 90, remarks: "Met all requirements and performed satisfactorily", selected: true },
     { name: "Isaac Agyei Baafi", position: "DCE", district: "Asawase", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Asokwa", score: null, remarks: "Vetting result pending", selected: null },
-    { name: "Baidoo Theodore", position: "MCE", district: "Atwima-Kwanwoma", score: null, remarks: "Vetting result pending", selected: null },
+    { name: "Baidoo Theodore", position: "DCE", district: "Atwima-Kwanwoma", score:80 , remarks: "Met all requirements and performed satisfactorily.", selected: true },
     { name: "", position: "DCE", district: "Atwima Mponua", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Atwima-Nwabiagya South", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Atwima-Nwabiagya North", score: null, remarks: "Vetting result pending", selected: null },
@@ -255,9 +255,9 @@ const nominees = [
         name: "Agmenusi Timothy",
         position: "MCE",
         district: "Nkoranza South",
-        score: null,
-        remarks: "Vetting result pending",
-        selected: null
+        score: 70,
+        remarks: "Met all requirements and performed satisfactorily.",
+        selected: true
     },
     {
         name: "",
@@ -382,10 +382,10 @@ const nominees = [
     { name: "", position: "DCE", district: "Akim Swedru", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "DCE", district: "Akwatia", score: null, remarks: "Vetting result pending", selected: null },
 
-    { name: "Tetteh Isaac Matey", position: "DCE", district: "Fanteakwa North", score: 80, remarks: "Met all requirements and performed satisfactorily.", selected: true },
+    { name: "Tetteh Isaac Matey", position: "DCE", district: "Fanteakwa North", score: 80, remarks: "Approved by the Vetting Committee but not selected for appointment..", selected: false },
     { name: "Asakiya Emmanuel", position: "DCE", district: "Fanteakwa North", score: 70, remarks: "Approved by the Vetting Committee but not selected for appointment.", selected: false },
 
-    { name: "Krofa Kwakye Prince", position: "DCE", district: "Fanteakwa South", score: 85, remarks: "Met all requirements and performed satisfactorily.", selected: true },
+    { name: "Krofa Kwakye Prince", position: "DCE", district: "Fanteakwa North", score: 85, remarks: "Met all requirements and performed satisfactorily.", selected: true },
 
     { name: "Bright Amankwah-Opoku", position: "MCE", district: "Kade", score: null, remarks: "Vetting result pending", selected: null },
     { name: "Samuel Kofi Appau Dwamena", position: "MCE", district: "Kade", score: null, remarks: "Vetting result pending", selected: null },
@@ -403,7 +403,7 @@ const nominees = [
     { name: "", position: "DCE", district: "Suhum", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "DCE", district: "Upper Manya", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "DCE", district: "Upper West Akim", score: null, remarks: "Vetting result pending", selected: null },
-    { name: "Oduro Konadu Joseph Prince", position: "MCE", district: "Lower West Akim", score: null, remarks: "Vetting result pending", selected: null },
+    { name: "Oduro Konadu Joseph Prince", position: "MCE", district: "Lower West Akim", score: 79, remarks: " Met all requirements and performed satisfactorily.", selected: true },
     { name: "", position: "MCE", district: "Yilo Krobo", score: null, remarks: "Vetting result pending", selected: null },
 
 
@@ -583,9 +583,9 @@ const nominees = [
     name: "Jalulah Nbayan Alfred",
     position: "DCE",
     district: "Saboba",
-    score: null,
-    selected: null,
-    remarks: "Vetting result pending"
+    score: 70,
+    selected: true,
+    remarks: "Met all requirements and performed satisfactorily."
   },
   {
     name: "",
@@ -599,9 +599,9 @@ const nominees = [
     name: "Issah Sayida",
     position: "MCE",
     district: "Savelugu",
-    score: null,
-    selected: null,
-    remarks: "Vetting result pending"
+    score: 79,
+    selected: true,
+    remarks: "Met all requirements and performed satisfactorily."
   },
   {
     name: "",
@@ -894,9 +894,9 @@ const nominees = [
     name: "Henry Angmaalanuba Ngminbahaara",
     position: "MCE",
     district: "Wa Central",
-    score: null,
-    selected: null,
-    remarks: "Vetting result pending"
+    score: 84,
+    selected: true,
+    remarks: "Met all requirements and performed satisfactorily."
   },
   {
     name: "Kpetizie Boorobaa Evans",
@@ -1127,9 +1127,9 @@ const nominees = [
         name: "Emmanuel Kobby Dadson",
         position: "MCE",
         district: "Prestea-Huni Valley",
-        score: null,
-        selected: null,
-        remarks: "Vetting result pending"
+        score: 80,
+        selected: true,
+        remarks: "Met all requirements and performed satisfactorily."
     },
     {
         name: "Benjamin Annan",
