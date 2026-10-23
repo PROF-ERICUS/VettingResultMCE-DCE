@@ -955,3 +955,89 @@ tbody td:nth-child(8) {
     font-size: 11px;
   }
 }
+
+/* RESPONSIVE NUMBER, SCORE & PERCENTAGE COLUMNS */
+tbody td:first-child,
+tbody td:nth-child(5),
+tbody td:nth-child(6) {
+  box-sizing: border-box;
+  width: 1%;
+  min-width: 0;
+  padding: 8px 4px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: clamp(11px, 1vw, 15px);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Row number column */
+tbody td:first-child {
+  width: 55px;
+  min-width: 45px;
+}
+
+/* Score and percentage columns */
+tbody td:nth-child(5),
+tbody td:nth-child(6) {
+  width: 75px;
+  min-width: 60px;
+  font-weight: 750;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  tbody td:first-child {
+    width: 48px;
+    min-width: 42px;
+  }
+
+  tbody td:nth-child(5),
+  tbody td:nth-child(6) {
+    width: 68px;
+    min-width: 58px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  tbody td:first-child,
+  tbody td:nth-child(5),
+  tbody td:nth-child(6) {
+    padding: 8px 3px;
+    font-size: 11px;
+  }
+
+  tbody td:first-child {
+    width: 42px;
+    min-width: 38px;
+  }
+
+  tbody td:nth-child(5),
+  tbody td:nth-child(6) {
+    width: 62px;
+    min-width: 54px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  tbody td:first-child,
+  tbody td:nth-child(5),
+  tbody td:nth-child(6) {
+    padding: 7px 2px;
+    font-size: 10px;
+  }
+
+  tbody td:first-child {
+    width: 38px;
+    min-width: 34px;
+  }
+
+  tbody td:nth-child(5),
+  tbody td:nth-child(6) {
+    width: 56px;
+    min-width: 48px;
+  }
+}
