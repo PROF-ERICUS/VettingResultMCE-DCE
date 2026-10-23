@@ -1212,7 +1212,7 @@ const nominees = [
         district: "Bibiani-Anhwiaso-Bekwai",
         score: 50,
         selected: true,
-        remarks: "Met most requirements but needs improvement in specific areas."
+        remarks: "Vetting Committee Decision."
     },
     {
         name: "Emmanuel Nyamekye",
