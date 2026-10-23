@@ -1041,4 +1041,96 @@ tbody td:nth-child(6) {
     min-width: 48px;
   }
 }
+/* ==================================
+   VETTING RESULTS - HORIZONTAL SCROLL
+   ================================== */
+
+.table-scroll {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+/* Keep all columns in a wide table */
+.table-scroll table {
+  width: 1200px !important;
+  min-width: 1200px !important;
+  max-width: none !important;
+  table-layout: auto !important;
+  border-collapse: collapse;
+}
+
+/* Prevent text from forcing columns into narrow layouts */
+.table-scroll th,
+.table-scroll td {
+  white-space: normal;
+  overflow-wrap: break-word;
+  vertical-align: middle;
+}
+
+/* Keep the heading readable */
+.table-scroll thead th {
+  white-space: normal;
+}
+
+/* Remarks column */
+.table-scroll th:nth-child(9),
+.table-scroll td:nth-child(9) {
+  min-width: 220px;
+  max-width: 300px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Appointment Decision column */
+.table-scroll th:nth-child(8),
+.table-scroll td:nth-child(8) {
+  min-width: 170px;
+}
+
+/* Name column */
+.table-scroll th:nth-child(2),
+.table-scroll td:nth-child(2) {
+  min-width: 150px;
+}
+
+/* Position and constituency */
+.table-scroll th:nth-child(3),
+.table-scroll td:nth-child(3) {
+  min-width: 130px;
+}
+
+.table-scroll th:nth-child(4),
+.table-scroll td:nth-child(4) {
+  min-width: 150px;
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  .table-scroll {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+
+  .table-scroll table {
+    width: 1200px !important;
+    min-width: 1200px !important;
+    table-layout: auto !important;
+  }
+
+  .table-scroll th,
+  .table-scroll td {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .table-scroll th:nth-child(9),
+  .table-scroll td:nth-child(9) {
+    min-width: 220px;
+  }
+}
 
