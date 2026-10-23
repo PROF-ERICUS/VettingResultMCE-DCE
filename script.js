@@ -442,7 +442,7 @@ const nominees = [
     { name: "", position: "MCE", district: "Korle Klottey", score: null, selected: null, remarks: "Vetting result pending" },
 
     { name: "Dzobo Edward Orlando Yaw", position: "MCE", district: "Kpone-Katamanso", score: 80, selected: false, remarks: "Met the vetting requirements but was not selected for appointment" },
-    { name: "Boafo Richeal Afumwah", position: "MCE", district: "Kpone-Katamanso", score: 98, selected: true, remarks: "Selected for appointment following the vetting proces" },
+    { name: "Boafo Richeal Afumwah", position: "MCE", district: "Kpone-Katamanso", score: 98, selected: true, remarks: "Met all requirements and performed satisfactorily." },
 
     { name: "", position: "MCE", district: "Krowor", score: null, selected: null, remarks: "Vetting result pending" },
     { name: "", position: "MCE", district: "Dade Kotopon", score: null, selected: null, remarks: "Vetting result pending" },
