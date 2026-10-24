@@ -761,13 +761,13 @@ const nominees = [
     selected: true,
     remarks: "Met most requirements but needs improvement in specific areas."
   },
-  {
+ {
     name: "Draman Sachibu",
     position: "DCE",
     district: "Salaga North",
-    score: null,
-    selected: null,
-    remarks: "Vetting result pending"
+    score: 70,
+    selected: true,
+    remarks: "Met all requirements and performed satisfactorily."
   },
   {
     name: "",
