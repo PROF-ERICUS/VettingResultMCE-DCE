@@ -1206,13 +1206,21 @@ const nominees = [
         selected: null,
         remarks: "Vetting result pending"
     },
-    {
+  {
         name: "Ebenezer Abban",
         position: "MCE",
         district: "Bibiani-Anhwiaso-Bekwai",
         score: 50,
-        selected: true,
+        selected: false,
         remarks: "Vetting Committee Decision."
+    },
+     {
+        name: "Ebenezer Abban",
+        position: "MCE",
+        district: "Bibiani-Anhwiaso-Bekwai",
+        score: 80,
+        selected: true,
+        remarks: "Met all requirements and performed satisfactorily"
     },
     {
         name: "Emmanuel Nyamekye",
