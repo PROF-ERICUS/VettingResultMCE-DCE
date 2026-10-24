@@ -519,9 +519,9 @@ const nominees = [
     name: "Abukari Mohammed Mashud",
     position: "MCE",
     district: "Gushegu",
-    score: null,
-    selected: null,
-    remarks: "Vetting result pending"
+    score: 83,
+    selected: true,
+    remarks: "Met all requirements and performed satisfactorily."
   },
   {
     name: "",
