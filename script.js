@@ -1214,8 +1214,8 @@ const nominees = [
         selected: false,
         remarks: "Vetting Committee Decision."
     },
-     {
-        name: "Ebenezer Abban",
+   {
+        name: "Gamel Baidoo",
         position: "MCE",
         district: "Bibiani-Anhwiaso-Bekwai",
         score: 80,
