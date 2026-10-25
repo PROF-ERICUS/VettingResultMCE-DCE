@@ -77,7 +77,7 @@ const nominees = [
     { name: "", position: "MCE", district: "Atwima-Nwabiagya North", score: null, remarks: "Vetting result pending", selected: null },
     { name: "Christian Anokye", position: "MCE", district: "Bekwai", score: 89, remarks: "Met all requirements and performed satisfactorily.", selected: true },
     { name: "", position: "DCE", district: "Bosome-Freho", score: null, remarks: "Vetting result pending", selected: null },
-    { name: "Agyemang Badu Bright", position: "DCE", district: "Bosomtwe", score: null, remarks: "Vetting result pending", selected: null },
+    { name: "Agyemang Badu Bright", position: "DCE", district: "Bosomtwe", score: 69, remarks: "Met most requirements but needs improvement in specific areas.", selected: true },
 
     { name: "Ebenezer Kumi Adu-Gyamfi", position: "MCE", district: "Ejisu", score: 95, remarks: "Met all requirements and performed satisfactorily", selected: true },
     { name: "Nsiah Samuel Aboagye", position: "MCE", district: "Ejisu", score: 90, remarks: "Approved by the Vetting Committee but not selected for appointment.", selected: false },
