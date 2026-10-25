@@ -94,7 +94,7 @@ const nominees = [
     { name: "", position: "MCE", district: "Nhyiaeso", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Subin", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Kwabre East", score: null, remarks: "Vetting result pending", selected: null },
-    { name: "Kwabena Owusu", position: "MCE", district: "Kwadaso", score: null, remarks: "Vetting result pending", selected: null },
+    { name: "Kwabena Owusu", position: "MCE", district: "Kwadaso", score: 70, remarks: "Met all requirements and performed satisfactorily", selected: true },
     { name: "Simon Akaribo", position: "MCE", district: "Mampong", score: 80, remarks: "Met all requirements and performed satisfactorily", selected: true },
     { name: "", position: "MCE", district: "Obuasi East", score: null, remarks: "Vetting result pending", selected: null },
     { name: "Samira Abdullah", position: "MCE", district: "Obuasi West", score: 68, remarks: "Met most requirements but needs improvement in specific areas.", selected: true },
