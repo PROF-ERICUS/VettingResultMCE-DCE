@@ -694,13 +694,13 @@ const nominees = [
     selected: null,
     remarks: "Appointment pending"
   },
-  {
-    name: "",
+ {
+    name: "Nsekinator John Donkor",
     position: "MCE",
     district: "Krachi East",
-    score: null,
-    selected: null,
-    remarks: "Appointment pending"
+    score: 70,
+    selected: true,
+    remarks: "Met all requirements and performed satisfactorily."
   },
   {
     name: "Redeemer Faith Amegbo-Dela",
