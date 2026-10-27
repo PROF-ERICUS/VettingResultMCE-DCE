@@ -483,9 +483,9 @@ const nominees = [
     name: "Jangdow Daniel",
     position: "MCE",
     district: "Nalerigu",
-    score: null,
-    selected: null,
-    remarks: "Vetting result pending"
+    score: 68,
+    selected: true,
+    remarks: "Met most requirements but needs improvement in specific areas."
   },
   {
     name: "",
