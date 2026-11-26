@@ -72,7 +72,7 @@ const nominees = [
     { name: " ", position: "DCE", district: "Asawase", score: null, remarks: "Vetting result pending", selected: null },
     { name: "Isaac Agyei Baafi", position: "MCE", district: "Asokwa", score: 50, remarks: "Committee decision", selected: true },
      
-    { name: "", position: "MCE", district: "Asokwa", score: Null, remarks: "Vetting result pending", selected: false },
+  
     { name: "Baidoo Theodore", position: "DCE", district: "Atwima-Kwanwoma", score:80 , remarks: "Met all requirements and performed satisfactorily.", selected: true },
     { name: "", position: "DCE", district: "Atwima Mponua", score: null, remarks: "Vetting result pending", selected: null },
     { name: "", position: "MCE", district: "Atwima-Nwabiagya South", score: null, remarks: "Vetting result pending", selected: null },
