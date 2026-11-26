@@ -445,7 +445,7 @@ const nominees = [
     { name: "", position: "MCE", district: "Bortianor-Ngleshie-Amanfrom", score: null, selected: null, remarks: "Vetting result pending" },
     { name: "", position: "DCE", district: "Domeabra-Obom", score: null, selected: null, remarks: "Vetting result pending" },
 
-    { name: "Nana Akua Ampofoah Yamoah", position: "DCE", district: "Amasaman", score: 89, selected: true, remarks: "Met all requirements and performed satisfactorily." },
+    { name: "Nana Akua Ampofoah Yamoah", position: "MCE", district: "Amasaman", score: 99, selected: true, remarks: "Met all requirements and performed satisfactorily." },
 
     { name: "", position: "MCE", district: "Korle Klottey", score: null, selected: null, remarks: "Vetting result pending" },
 
@@ -635,6 +635,14 @@ const nominees = [
     score: null,
     selected: null,
     remarks: "Appointment pending"
+  },
+   {
+    name: "Sumaila Amidu",
+    position: "Major",
+    district: "Tamale South",
+    score: 88,
+    selected: true,
+    remarks: "Met all requirements and performed satisfactorily."
   },
   {
     name: "",
